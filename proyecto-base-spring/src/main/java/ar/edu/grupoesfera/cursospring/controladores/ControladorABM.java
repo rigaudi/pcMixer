@@ -1,8 +1,12 @@
 package ar.edu.grupoesfera.cursospring.controladores;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
+import ar.edu.grupoesfera.cursospring.modelos.Usuario;
 
 @Controller
 public class ControladorABM {
@@ -20,8 +24,10 @@ public class ControladorABM {
 		return new ModelAndView("adminPrincipal");
 	}
 	
-	@RequestMapping(value="/admin/verUsuario")
-	ModelAndView visualizarDatos(){
+	@RequestMapping(value="/admin/verUsuario",method=RequestMethod.POST)
+	public ModelAndView mostrarDatos(/*Usuario usuario,Model modelo*/){
+		
+		
 		
 		return new ModelAndView("verUsuario");
 	}
