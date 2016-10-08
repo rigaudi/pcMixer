@@ -1,3 +1,4 @@
+//modelo que se utiliza en el formulario
 package ar.edu.grupoesfera.cursospring.modelos;
 
 public class ModeloFormulario {
