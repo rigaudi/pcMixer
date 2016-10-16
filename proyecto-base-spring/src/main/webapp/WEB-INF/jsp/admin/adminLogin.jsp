@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<c:import url="metadata.jsp"/>
+	<c:import url="../metadata.jsp"/>
 	<title>Log in</title>
 </head>
 <body>
@@ -19,6 +19,6 @@
 			<input type="submit" id="ingresar" name="ingresar"/>
 		</form:form>
 	</section>
-	<c:import url="footer.jsp"/>
+	<c:import url="../footer.jsp"/>
 </body>
 </html>

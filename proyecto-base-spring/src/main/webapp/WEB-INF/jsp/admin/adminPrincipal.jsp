@@ -3,30 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<c:import url="metadata.jsp"/>
+	<c:import url="../metadata.jsp"/>
 	<title>Listado de artículos</title>
 </head>
 <body>
-	<header>
-	<div class="container-fluid">
-	<div class="row">
-	<div class="col-xs-12">
-	<h1>PC Mixer</h1>
-	<nav class="navbar navbar-static-top">
-		<ul class="nav navbar-nav navbar-left">
-			<li><a href="/admin/adminPrincipal">Listado de Productos</a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-		</ul>
-		
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="">Cerrar Sesión</a></li>
-		</ul>
-	</nav>
-	</div>
-	</div>
-	</div>
-	</header>
+	
+	<c:import url="navbar-header.jsp"/>
 
 	<section>
 		<div class="container-fluid">
@@ -51,6 +33,6 @@
 			</div>
 		</div>
 	</section>
-	<c:import url="footer.jsp"/>
+	<c:import url="../footer.jsp"/>
 </body>
 </html>

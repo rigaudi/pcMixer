@@ -16,7 +16,7 @@ public class ControladorDeFormulario {
 	public ModelAndView vistaDelFormulario(){
 		
 		//ModeloFormulario formulario = new ModeloFormulario();
-		return new ModelAndView("formulario","formularioDePreguntas",new ModeloFormulario());
+		return new ModelAndView("formulario/formulario","formularioDePreguntas",new ModeloFormulario());
 		/* 
 		 * 1)nombre de la vista 
 		 * 2)nombre del objeto alojado en el parametro ModelAttribute 
@@ -36,7 +36,7 @@ public class ControladorDeFormulario {
 		
 		mapa.put("formularioRespondido", formularioRespondido);
 		//El primer parametro es una clave, el segundo es el objeto pasado como parametro
-		return new ModelAndView("respuesta",mapa);
+		return new ModelAndView("formulario/respuesta",mapa);
 		//retorno la vista
 	}
 }

@@ -14,14 +14,14 @@ public class ControladorABM {
 	@RequestMapping(value="/admin/adminLogin")
 	ModelAndView loginDeAdministrador(){
 		
-		return new ModelAndView("adminLogin");
+		return new ModelAndView("admin/adminLogin");
 		
 	}
 	
 	@RequestMapping(value="/admin/adminPrincipal")
 	ModelAndView PrincipalDeAdministrador(){
 		
-		return new ModelAndView("adminPrincipal");
+		return new ModelAndView("admin/adminPrincipal");
 	}
 	
 	@RequestMapping(value="/admin/verUsuario",method=RequestMethod.POST)
