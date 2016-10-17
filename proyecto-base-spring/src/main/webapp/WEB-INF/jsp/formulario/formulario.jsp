@@ -53,7 +53,9 @@
 			<label>Estoy aprendiendo a usar la compu </label><form:radiobutton path="pregunta6" value="6"/>
 			<br>
 			
-			
+			<br>
+			<br>
+			<br>
 			<input type="submit" name="procesar" value="procesar"/>
 		
 		</form:form>
