@@ -72,8 +72,8 @@
         <div class="container" id="buscador">
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading" >Busc&aacute tu mejor PC!</div>
-                <a href="#services" class="page-scroll btn btn-xl">Comenzara!</a>
+                <div class="intro-heading" >Busc&aacute tu mejor PC!!!!</div>
+                <a href="/proyecto-base-spring/formulario" class="page-scroll btn btn-xl">Comenzara!</a>
             </div>
         </div>
     </header>
