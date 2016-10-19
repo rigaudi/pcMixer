@@ -15,42 +15,63 @@
 		instanciado en el metodo del controlador -->
 			
 			<label>Vas a ir de acá para allá con la PC?</label>
-			<label>SI</label><form:radiobutton path="pregunta1" value="s"/>
-			<label>NO</label><form:radiobutton path="pregunta1" value="n"/>
 			<br>
-			
+			<form:radiobutton path="pregunta1" value="s"/><label>SI</label>
+			<br>
+			<form:radiobutton path="pregunta1" value="n"/><label>NO</label>
+			<br>
+			<br>
 			<label>Le agregamos monitor?</label>
-			<label>SI</label><form:radiobutton path="pregunta2" value="s"/>
-			<label>NO</label><form:radiobutton path="pregunta2" value="n"/>
 			<br>
-			
+			<form:radiobutton path="pregunta2" value="s"/><label>SI</label>
+			<br>
+			<form:radiobutton path="pregunta2" value="n"/><label>NO</label>
+			<br>
+			<br>
 			<label>Cuantas horas la usas?</label>
-			<label>3HS</label><form:radiobutton path="pregunta3" value="3"/>
-			<label>6HS</label><form:radiobutton path="pregunta3" value="6"/>
-			<label>9HS O MAS</label><form:radiobutton path="pregunta3" value="9"/>
 			<br>
-			
+			<form:radiobutton path="pregunta3" value="3"/><label>3HS</label>
+			<br>
+			<form:radiobutton path="pregunta3" value="6"/><label>6HS</label>
+			<br>
+			<form:radiobutton path="pregunta3" value="9"/><label>9HS O MAS</label>
+			<br>
+			<br>
 			<label>Que tamano te vendria mejor?</label>
-			<label>13 pulgadas </label><form:radiobutton path="pregunta4" value="13"/>
-			<label>14 pulgadas</label><form:radiobutton path="pregunta4" value="14"/>
-			<label>15,6 pulgadas O </label><form:radiobutton path="pregunta4" value="15"/>
-			<label>17 </label><form:radiobutton path="pregunta4" value="17"/>
 			<br>
-			
+			<form:radiobutton path="pregunta4" value="13"/><label>13 pulgadas </label>
+			<br>
+			<form:radiobutton path="pregunta4" value="14"/><label>14 pulgadas</label>
+			<br>
+			<form:radiobutton path="pregunta4" value="15"/><label>15,6 pulgadas </label>
+			<br>
+			<form:radiobutton path="pregunta4" value="17"/><label>17 pulgadas</label>
+			<br>
+			<br>
 			<label>Que tamano de monitor te vendria mejor?</label>
-			<label>17 pulgadas </label><form:radiobutton path="pregunta5" value="17"/>
-			<label>19 pulgadas</label><form:radiobutton path="pregunta5" value="19"/>
-			<label>21 pulgadas O </label><form:radiobutton path="pregunta5" value="21"/>
-			<label>24 </label><form:radiobutton path="pregunta5" value="24"/>
 			<br>
-			
+			<form:radiobutton path="pregunta5" value="17"/><label>17 pulgadas </label>
+			<br>
+			<form:radiobutton path="pregunta5" value="19"/><label>19 pulgadas</label>
+			<br>
+			<form:radiobutton path="pregunta5" value="21"/><label>21 pulgadas </label>
+			<br>
+			<form:radiobutton path="pregunta5" value="24"/><label>24 pulgadas</label>
+			<br>
+			<br>
 			<label>Que uso le queres dar?</label>
-			<label>Trabajo con diseno </label><form:radiobutton path="pregunta6" value="1"/>
-			<label>Tengo que hacer cosas de arquitectura</label><form:radiobutton path="pregunta6" value="2"/>
-			<label>Me la paso editando videos/imagenes</label><form:radiobutton path="pregunta6" value="3"/>
-			<label>La necesito para la oficina </label><form:radiobutton path="pregunta6" value="4"/>
-			<label>La uso para jugar y mirar pelis </label><form:radiobutton path="pregunta6" value="5"/>
-			<label>Estoy aprendiendo a usar la compu </label><form:radiobutton path="pregunta6" value="6"/>
+			<br>
+			<form:radiobutton path="pregunta6" value="1"/><label>Trabajo con diseno </label>
+			<br>
+			<form:radiobutton path="pregunta6" value="2"/><label>Tengo que hacer cosas de arquitectura</label>
+			<br>
+			<form:radiobutton path="pregunta6" value="3"/><label>Me la paso editando videos/imagenes</label>
+			<br>
+			<form:radiobutton path="pregunta6" value="4"/><label>La necesito para la oficina </label>
+			<br>
+			<form:radiobutton path="pregunta6" value="5"/><label>La uso para jugar y mirar pelis </label>
+			<br>
+			<form:radiobutton path="pregunta6" value="6"/><label>Estoy aprendiendo a usar la compu </label>
 			<br>
 			
 			<br>
